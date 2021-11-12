@@ -1,0 +1,90 @@
+.addQuestionForm {
+  width: 550px !important;
+  height: 550px !important ;
+  margin: auto;
+  background-color: #88cccc;
+  border-radius: 9px;
+  text-align: center;
+
+  input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  h3 {
+    color: #115566;
+    font-size: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  button {
+    width: 450px !important;
+    background-color: #115566;
+    margin: auto;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 9px;
+  a {
+    text-decoration: none;
+    word-spacing: 4px;
+    font-size: 25px;
+    color: #115566;
+    padding: 10px;
+    margin-right: 6px;
+  }
+}
+
+.input-group-text{
+  width: 30px !important;
+  height: 30px !important;
+  margin-top: 9px;
+  margin-left: 3px !important;
+  padding: 6px;
+  border-radius: 50% !important;
+  background-color: #115566;
+}
+
+.rules{
+  width: 650px;
+  height: auto;
+  background-color:#88cccc ;
+  margin: auto;
+  border-radius: 15px;
+  h3{
+    color: #115566;
+    font-size: 33px;
+    word-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+ p{
+   font-size: 28px;
+   color: #d0ebdd;
+   margin: 9px;
+   padding: 10px;
+
+ }
+ button{
+   width: 80px;
+   text-align: center;
+   background-color: #115566;
+   color: #d0ebdd;
+   margin-bottom: 5px;
+   display: flex;
+   float: right;
+   border-radius: 8px;
+
+ }
+}
+h3 {
+  color: #115566;
+  font-size: 33px;
+  word-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}

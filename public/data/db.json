@@ -1,0 +1,189 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "junaid",
+      "email": "jshirur786@gmail.com",
+      "phone-no": 9066699895,
+      "password": 1234
+    },
+    {
+      "namw": "Junaid",
+      "email": "jshirur786@gmail.com",
+      "phone": "9066633895",
+      "password": "junaid",
+      "id": 2
+    },
+    {
+      "namw": "srinivas",
+      "email": "tousi@7.com",
+      "phone": "9945456981",
+      "password": "yofhi",
+      "id": 3
+    },
+    {
+      "namw": "Junaid",
+      "email": "jshirur786@gmail.com",
+      "phone": "9066633895",
+      "password": "juniad",
+      "id": 4
+    },
+    {
+      "namw": "srinivas",
+      "email": "Jshirur786@gmail.com",
+      "phone": "456",
+      "password": "d",
+      "id": 5
+    },
+    {
+      "namw": "Junaid",
+      "email": "ibmr157@tiehubli.org",
+      "phone": "9066633895",
+      "password": "sd",
+      "id": 6
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "name": "junaid",
+      "email": "jshirur786@gmail.com",
+      "phone-no": 9066699895,
+      "password": 1234
+    },
+    {
+      "name": "Junaid",
+      "email": "Jshirur786@gmail.com",
+      "phone": "9066633895",
+      "password": "qwa",
+      "id": 2
+    }
+  ],
+  "data": [
+    {
+      "id": 1,
+      "question": "what is question",
+      "options": [
+        {
+          "a": "abc",
+          "b": "def",
+          "c": "grf",
+          "d": "dsd"
+        }
+      ]
+    },
+    {
+      "options": [
+        {
+          "a": "abc",
+          "b": "def",
+          "c": "ghi",
+          "d": "jkl"
+        }
+      ],
+      "id": 2
+    },
+    [
+      {
+        "options": [
+          {
+            "a": "a",
+            "b": "s",
+            "c": "s",
+            "d": "d"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "question": "this is question",
+        "options": [
+          {
+            "a": "abc",
+            "b": "def",
+            "c": "ghi",
+            "d": "jkl"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "question": "for checking",
+        "options": [
+          {
+            "a": "yes"
+          },
+          {
+            "b": "dee"
+          },
+          {
+            "c": "sed"
+          },
+          {
+            "d": "ede"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "question": "checkinh",
+        "options": [
+          {
+            "a": "a"
+          },
+          {
+            "b": "s"
+          },
+          {
+            "c": "s"
+          },
+          {
+            "d": "jkl"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "question": "this is question",
+        "options": [
+          {
+            "a": "yes"
+          },
+          {
+            "b": "dee"
+          },
+          {
+            "c": "s"
+          },
+          {
+            "d": "jkl"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "question": "this is question",
+        "options": [
+          {
+            "a": "abc",
+            "ans": true
+          },
+          {
+            "b": "def"
+          },
+          {
+            "c": "ghi"
+          },
+          {
+            "d": "jkl"
+          }
+        ]
+      }
+    ]
+  ]
+}

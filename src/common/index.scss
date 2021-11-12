@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #559999;
+}
+// ########################################   Landing-page       ########################################
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 9px;
+
+  a {
+    text-decoration: none;
+    word-spacing: 4px;
+    font-size: 25px;
+    color: #115566;
+    padding: 10px;
+    margin-right: 6px;
+  }
+}
+.LoginForm {
+  width: 450px !important;
+  height: auto;
+  margin: auto;
+  h3 {
+    color: #88cccc;
+    font-size: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h2 {
+    color: #d0ebdd;
+  }
+  button {
+    background-color: #115566 !important;
+    border: none !important;
+    color: #d0ebdd;
+  }
+  a {
+    margin-left: 5px;
+    color: #d0ebdd;
+    text-decoration: none;
+  }
+}
+
+// ########################################   Register-page       ########################################
+.registerForm {
+  width: 480px !important;
+  height: auto;
+  margin: auto;
+  button {
+    background-color: #115566 !important;
+    border: none !important;
+    color: #d0ebdd;
+  }
+  h2 {
+    color: #d0ebdd;
+    font-size: 50px;
+    margin-bottom: 9px;
+    border-bottom: 1px solid #115566;
+    text-align: center;
+  }
+  a {
+    margin-left: 5px;
+    color: #d0ebdd;
+    text-decoration: none;
+  }
+}
+
+
