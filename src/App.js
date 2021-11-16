@@ -9,8 +9,9 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Questions from './components/quiz components/questions';
+import Instructions from './components/quiz components/instruction';
 import AddQuestion from './components/quiz components/addQuestion';
+import Questions from './components/quiz components/questions';
 function App() {
   return (
     <div >
@@ -20,8 +21,10 @@ function App() {
           <Route path='/Register_page' element={<Register />} />
           <Route path='/Admin_page' element={<Admin />} />
           <Route path='/Admin_Register_page' element={<AdminRegister />} />
-          <Route path='question_page' element={<Questions />} />
+          <Route path='Instructions-page' element={<Instructions />} />
           <Route path='/add_question_page' element={<AddQuestion />} />
+          <Route path='/question_page' element={<Questions />} />
+
         </Routes>
       </BrowserRouter>
     </div>

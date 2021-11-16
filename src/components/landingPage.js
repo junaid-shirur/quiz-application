@@ -21,7 +21,7 @@ export default function LandingPage() {
             })
         response.data.map((e) => {
             if (e.email === login.email && e.password === login.password) {
-                navigate('question_page', { replace: true })
+                navigate('Instructions-page', { replace: true })
             }
             else {
                 console.log('not succes');

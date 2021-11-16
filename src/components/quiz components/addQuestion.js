@@ -6,45 +6,27 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 export default function AddQuestion() {
     const [question, setquestion] = useState({
-        question: ""
+        question: "",
+        options :[{a:'', b:'', c:'', d:''}],
+        correctOPtion:"b"
     })
-    const [correctAns, setcorrectAns] = useState({
-        option1: false,
-        option2: false,
-        option3: false,
-        option4: false,
 
-    })
-    const [options, setoptions] = useState([
-        { a: "", ans1: "" },
-        { b: "", ans2: "" },
-        { c: "", ans3: "" },
-        { d: "", ans4: "" }
-    ])
-    // console.log(correctAns);
+    console.log(question.options);
     const handleChange = e => {
         e.preventDefault();
-        setoptions({ ...options, [e.target.name]: e.target.value })
+        var options = { ...question.options, [e.target.name]: e.target.value }
+        setquestion({ ...question, options:options})
     }
     const handleSubmit = (e) => {
-        e.preventDefault()
-        const data = [{
-            question: question.question,
-            options: [
-                { a: options.a, ans: options.ans1 },
-                { b: options.b, ans: options.ans2 },
-                { c: options.c, ans: options.ans3 },
-                { d: options.d, ans: options.ans4 }
-            ]
-        }]
-        // console.log(data);
-        axios.post('http://localhost:8000/data', data)
-            .then(function (response) {
-                console.log(response);
-            })
-            .catch(function (error) {
-                console.log(error);
-            });
+        // e.preventDefault()
+        // axios.post('http://localhost:8000/data', question)
+        //     .then(function (response) {
+        //         console.log(response);
+        //     })
+        //     .catch(function (error) {
+        //         console.log(error);
+        //     });
+  
     }
     return (
         <>
@@ -66,15 +48,17 @@ export default function AddQuestion() {
                             <InputGroup className="mb-3">
                                 <Form.Control
                                     name="a"
-                                    value={options.a}
+                                    value={question.options.a}
                                     onChange={handleChange}
                                     type="text"
                                     placeholder="option-1" />
                                 <InputGroup.Radio
                                     onClick={() => {
-                                        correctAns.option1 === false ? setoptions({ ...options, ans1: true }) : setoptions({ ...options, ans1: false })
+                                        setquestion({ ...question, correctOPtion: "a" })
                                     }}
-                                    value={options.ans1}
+                                    value={question.options.a}
+                                    name="correctAns"
+
                                 />
                             </InputGroup>
                         </Col>
@@ -82,15 +66,17 @@ export default function AddQuestion() {
                             <InputGroup className="mb-3">
                                 <Form.Control
                                     name="b"
-                                    value={options.b}
+                                    value={question.options.b}
                                     onChange={handleChange}
                                     type="text"
                                     placeholder="option-2" />
                                 <InputGroup.Radio
                                     onClick={() => {
-                                        correctAns.option2 === false ? setoptions({ ...options, ans2: true }) : setoptions({ ...options, ans2: false })
+                                        setquestion({ ...question, correctOPtion: "b" })
                                     }}
-                                    value={options.ans2}
+                                    value={question.options.b}
+                                    name="correctAns"
+
                                 />
                             </InputGroup>
                         </Col>
@@ -100,15 +86,17 @@ export default function AddQuestion() {
                             <InputGroup className="mb-3">
                                 <Form.Control
                                     name="c"
-                                    value={options.c}
+                                    value={question.options.c}
                                     onChange={handleChange}
                                     type="text"
                                     placeholder="option-3" />
                                 <InputGroup.Radio
                                     onClick={() => {
-                                        correctAns.option3 === false ? setoptions({ ...options, ans3: true }) : setoptions({ ...options, ans3: false })
+                                        setquestion({ ...question, correctOPtion: "c" })
                                     }}
-                                    value={options.ans3}
+                                    value={question.options.c}
+                                    name="correctAns"
+
                                 />
                             </InputGroup>
                         </Col>
@@ -116,15 +104,17 @@ export default function AddQuestion() {
                             <InputGroup className="mb-3">
                                 <Form.Control
                                     name="d"
-                                    value={options.d}
+                                    value={question.options.d}
                                     onChange={handleChange}
                                     type="text"
                                     placeholder="option-4" />
                                 <InputGroup.Radio
                                     onClick={() => {
-                                        correctAns.option4 === false ? setoptions({ ...options, ans4: true }) : setoptions({ ...options, ans4: false })
+                                        setquestion({ ...question, correctOPtion: "d" })
                                     }}
-                                    value={options.ans4}
+                                    value={question.options.d}
+                                    name="correctAns"
+
                                 />
                             </InputGroup>
                         </Col>

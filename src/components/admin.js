@@ -41,7 +41,7 @@ export default function Admin() {
                 <div className="LoginForm">
                     <h3 >Quizz</h3>
                     <Form onSubmit={handleSubmit} >
-                        <h2>Login</h2>
+                        <h2> Admin Login</h2>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>
                             <Form.Control
