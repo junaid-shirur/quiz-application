@@ -41,6 +41,13 @@
       "phone": "9066633895",
       "password": "sd",
       "id": 6
+    },
+    {
+      "name": "Junaid ahmed",
+      "email": "jshirur786@gmail.com",
+      "phone": "9066633895",
+      "password": "123",
+      "id": 7
     }
   ],
   "admins": [
@@ -73,117 +80,40 @@
       ]
     },
     {
+      "id": 1,
+      "question": "what is question",
       "options": [
         {
           "a": "abc",
           "b": "def",
-          "c": "ghi",
-          "d": "jkl"
+          "c": "grf",
+          "d": "dsd"
         }
-      ],
-      "id": 2
+      ]
     },
-    [
-      {
-        "options": [
-          {
-            "a": "a",
-            "b": "s",
-            "c": "s",
-            "d": "d"
-          }
-        ]
-      }
-    ],
-    [
-      {
-        "question": "this is question",
-        "options": [
-          {
-            "a": "abc",
-            "b": "def",
-            "c": "ghi",
-            "d": "jkl"
-          }
-        ]
-      }
-    ],
-    [
-      {
-        "question": "for checking",
-        "options": [
-          {
-            "a": "yes"
-          },
-          {
-            "b": "dee"
-          },
-          {
-            "c": "sed"
-          },
-          {
-            "d": "ede"
-          }
-        ]
-      }
-    ],
-    [
-      {
-        "question": "checkinh",
-        "options": [
-          {
-            "a": "a"
-          },
-          {
-            "b": "s"
-          },
-          {
-            "c": "s"
-          },
-          {
-            "d": "jkl"
-          }
-        ]
-      }
-    ],
-    [
-      {
-        "question": "this is question",
-        "options": [
-          {
-            "a": "yes"
-          },
-          {
-            "b": "dee"
-          },
-          {
-            "c": "s"
-          },
-          {
-            "d": "jkl"
-          }
-        ]
-      }
-    ],
-    [
-      {
-        "question": "this is question",
-        "options": [
-          {
-            "a": "abc",
-            "ans": true
-          },
-          {
-            "b": "def"
-          },
-          {
-            "c": "ghi"
-          },
-          {
-            "d": "jkl"
-          }
-        ]
-      }
-    ]
+    {
+      "id": 2,
+      "question": " question  2",
+      "options": [
+        {
+          "a": "123",
+          "b": "123",
+          "c": "132",
+          "d": "dsd"
+        }
+      ]
+    },
+{
+      "id": 3,
+      "question": "what is question",
+      "options": [
+        {
+          "a": "abc",
+          "b": "def",
+          "c": "grf",
+          "d": "dsd"
+        }
+      ]
+    }
   ]
 }
